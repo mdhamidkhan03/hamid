@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAFA;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #00203FFF;
+    color: white;
+    min-height: 70px;
+    padding: 7px 0px;
+    border-bottom: #ADEFD1FF 3px solid;
+}
+
+header h1 {
+    float: left;
+    padding-left: 10px;
+}
+
+header h1 span {
+    color: #ADEFD1FF;
+}
+
+header li {
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    border-bottom: white 2px solid;
+}
+
+nav {
+    float: right;
+    margin-top: 16px;
+}
+
+.current {
+    color: #ADEFD1FF;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url('img/showcase.jpg') no-repeat 100%;
+    background-position-x: -500px;
+    background-position-y: -315px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h2 {
+    font-size: 55px;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+.newsletter {
+    background-color: #00203FFF;
+    color: white;
+    padding: 10px 0px;
+}
+
+.newsletter h3 {
+    display: inline-block;
+    color: white;
+}
+
+.newsletter form {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.newsletter form input {
+    padding: 7px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.newsletter .btn:focus {
+    outline-color: white;
+}
+
+.newsletter form button {
+    border: none;
+    background-color: #ADEFD1FF;
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.main .heading {
+    font-size: 36px;
+}
+
+.main h3 {
+    text-align: center;
+}
+
+.main img {
+    width: 90px;
+}
+
+.footer {
+    background-color: #ADEFD1FF;
+    padding: 23px;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
